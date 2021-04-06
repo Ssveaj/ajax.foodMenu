@@ -1,0 +1,19 @@
+html, body {
+    height: 100%;
+    background-color: #020024;
+    overflow-x: hidden;
+  }
+.container-food {
+    margin-top: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border-left: solid 2px #3D3D3D;
+    border-right: solid 2px #3D3D3D;
+}
+ #showMatSedel  {
+ 	font-size: 13px;
+ }
+.row {
+   background-color: white;
+
+ }
