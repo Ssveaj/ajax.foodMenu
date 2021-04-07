@@ -52,11 +52,11 @@ $.ajax({
     mat += '      </div>';
     mat += '    </div>';
 
-    mat += '    <div class="row" id="swipeRight">';
-    mat += '      <div class="col-md-2" id="swipeRight"'  + borderBtm + '>';
+    mat += '    <div class="row">';
+    mat += '      <div class="col-md-2"'  + borderBtm + '>';
     mat +=            e.items[4].title;
     mat += '      </div>';
-    mat += '      <div class="col-md-10" id="swipeRight"' + borderBtm + '>';
+    mat += '      <div class="col-md-10"' + borderBtm + '>';
     mat +=            e.items[4].description;
     mat += '      </div>';
     mat += '    </div>';
@@ -64,12 +64,6 @@ $.ajax({
 
   
 $('#showMatSedel').html(mat);
-
-var swiperight = document.getElementById('swipeRight');
-swiperight.addEventListener('click', function() {
-  document.location.href = '/';
-});
- 
         
     }  
 }); 
